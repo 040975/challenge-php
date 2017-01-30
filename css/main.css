@@ -1,0 +1,214 @@
+
+/* --------------------- Global --------------------- */
+html,body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+
+}
+
+
+/* --------------------- Home --------------------- */
+header.carousel {
+    height: 70%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* --------------------- Repertory --------------------- */
+.img-portfolio {
+    margin-bottom: 10px;
+
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.portfolio-item{
+    height: 250px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+/* --------------------- Contact --------------------- */
+form textarea{
+    height: 200px;
+}
+
+thead{
+    background: #333;
+    color: #fff;
+}
+/* --------------------- Footer --------------------- */
+footer {
+    margin: 50px 0;
+}
+
+
+/* --------------------- Responsive  --------------------- */
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 10px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+#iden{
+  margin-left:30%;
+  margin-top:100px;
+  border:1px solid black;
+  background-color: black;
+  width:40%;
+  height:400px;
+  text-align:center;
+  color:grey;
+
+}
+#mdpinv{
+  text-align: center;
+}
+#couleur{
+  text-align: center;
+  margin-left:3%;
+  background-image:url("../img/about-profil.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:10% 10% 10%;
+  width:40%;
+  height:450px;
+  color:black;
+  position:relative;
+  margin-top:50px;
+}
+#info{
+
+  border:solid 1px white;
+  width:30%;
+  height:400px;
+  color:black;
+  position:absolute;
+  overflow: scroll;
+  margin:auto;
+  right:20px;
+  margin-top:40px;
+  border-radius:20% 20% 20%;
+  text-align:center;
+
+
+}
+
+#info2{
+
+position:absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:1px solid black;
+  width:40%;
+  height:500px;
+  margin-top:47px;
+  overflow: scroll;
+  margin-left:2%;
+}
+#gototop{
+  position:absolute;
+  position: fixed;
+  right:50px;
+  top:450px;
+  float:right;
+  z-index: 100;
+}
+input{
+  margin-top:10px;
+  position:relative;
+}
+#deco{
+  margin-top:400px;
+  position: absolute;
+
+}
+
+#page1{
+border:1px solid black;
+background-color: #a8b3b1;
+text-align:left!important;
+width:100%;
+height:400px;
+}
+#page2{
+border:1px solid black;
+background-color: #a8b3b1;
+text-align:center;
+width:100%;
+height:400px;
+}
+#pagepleine{
+  background-color: #bec0cd;
+}
+#pp{
+  margin-top:20px;
+
+}
+#delete{
+  position:relative;
+ float:right;
+   right:0px;
+  top:0px;
+  text-align:right;
+}
+#img{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+@keyframes fadeinout {
+    from {
+        opacity: 0.5;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+.blink {
+    animation: fadeinout 2s infinite;
+    color:red;
+    text-align:center;
+    margin:auto bottom:20px;
+
+}
